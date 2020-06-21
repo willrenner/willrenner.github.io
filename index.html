@@ -62,13 +62,13 @@
             </div>
             <div class="col image-col">
                 <div class="thumbnail">
-                    <img class="img-fluid" onclick="openNavRight(1)" src="resources/SlothProfilePicture.jpg" alt="">
+                    <img class="img-fluid" onclick="openNavRight(3)" src="projectImages/csgoWebsite-main.JPG" alt="">
 
                 </div>
             </div>
             <div class="col image-col">
                 <div class="thumbnail">
-                    <img class="img-fluid" onclick="openNavRight(1)" src="resources/SlothProfilePicture.jpg" alt="">
+                    <img class="img-fluid" onclick="openNavRight(1)" src="" alt="">
 
                 </div>
             </div>
@@ -175,7 +175,53 @@
                             you can view your most played songs from the last four weeks to the last
                             several years. You can also select the number of songs to show, ranging from
                             10 to 50. All of this information is gathered through Spotify's API. The App itself is
-                            built with React.js, HTML, and CSS.
+                            built with React.js, Javascript, and HTML/CSS.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="myNav3" class="overlay">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-8 overlay-picture" onclick="closeNavRight(3)">
+                        <img class="img overlay-picture-img" src="projectImages/csgoWebsite-main.JPG" alt="">
+                        <br>
+                        <br>
+                        <img class="img overlay-picture-img" src="projectImages/csgoWebsite-home.JPG" alt="">
+                        <br>
+                        <br>
+                        <img class="img overlay-picture-img" src="projectImages/csgoWebsite-chart.JPG" alt="">
+                        <br>
+                        <br>
+                        <img class="img overlay-picture-img" src="projectImages/csgoWebsite-htmlExample.JPG" alt="">
+
+                    </div>
+                    <div class="col-4 overlay-text">
+                        <div class="closebtn" onclick="closeNavRight(3)">
+                            <img id="img3" src="resources/arrow.png" href="javascript:void(0)" class="return-arrow">
+                            <div class="back-div">Back</div>
+                        </div>
+                        <h1>
+                            CSGO Stat Scraper
+                        </h1>
+                        <p class="pinfo">
+                            My CSGO stat scraper allows you to upload an html file (obtained from <a
+                                href="https://store.steampowered.com/">steam</a>)
+                            and scrape the file for important csgo stats. The html file can obtained from steam's
+                            website
+                            under: Steam -> Games -> Personal Game Data (under CSGO) -> Competitive Matches. You must
+                            manualy load your match history by continuously clicking "Load More History". You can
+                            optionally download "<a
+                                href="https://chrome.google.com/webstore/detail/ban-checker-for-steam/canbadmphamemnmdfngmcabnjmjgaiki?hl=en">Ban
+                                Checker for Steam</a>" from the chrome store to have
+                            your whole match history
+                            automatically loaded. Once all matches have been loaded,
+                            right click the page and save it as a txt or html file. Now, you can upload this file to my
+                            CSGO stat scraper to view your stats. Note that steam has deleted all data before
+                            2017 to reclaim storage space. My CSGO stat scraper is made with HTML/CSS and javascript
+                            (jQuery, chart.js)
+
                         </p>
                     </div>
                 </div>

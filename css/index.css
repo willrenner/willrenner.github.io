@@ -79,6 +79,10 @@ body {
     font-size: 18px;
 }
 
+.pinfo a {
+    color: darkblue;
+}
+
 .overlay-picture {
     background-color: rgb(194, 194, 194);
     padding: 0px;
