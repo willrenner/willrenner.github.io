@@ -101,6 +101,21 @@ body {
     padding: 0;
 }
 
+.overlay-picture::-webkit-scrollbar {
+    width: 10px;
+}
+
+.overlay-picture::-webkit-scrollbar-thumb {
+    background: #666;
+    border-radius: 20px;
+}
+
+.overlay-picture::-webkit-scrollbar-track {
+    background: rgb(240, 240, 240);
+    border-radius: 20px;
+}
+
+
 .back-div {
     display: inline;
 }
@@ -125,7 +140,7 @@ body {
 
 .logos {
     text-align: center;
-    margin: 20px;
+    margin-top: 115px;
 }
 
 .logo {
@@ -141,6 +156,8 @@ body {
     float: right;
     margin-top: 5px;
 }
+
+
 
 
 
