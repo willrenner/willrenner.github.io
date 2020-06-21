@@ -74,13 +74,18 @@ body {
     /* transition: 0.25s; */
 }
 
+.overlay-text h1 {
+    margin: 20px;
+}
+
 .pinfo {
+    margin: 20px;
     margin-right: 20px;
     font-size: 18px;
 }
 
 .pinfo a {
-    color: darkblue;
+    color: rgb(0, 0, 197);
 }
 
 .overlay-picture {
@@ -132,6 +137,7 @@ body {
 .closebtn {
     font-size: 15px;
     color: gray;
+    margin: 20px;
     margin-bottom: 25px;
     margin-top: 25px;
     align-items: center;
@@ -143,6 +149,7 @@ body {
 }
 
 .logos {
+    font-size: 20px;
     text-align: center;
     margin-top: 115px;
 }
