@@ -1,0 +1,171 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+}
+
+.nav-item a {
+    color: rgb(3, 3, 53);
+    font-size: 20px;
+}
+
+.nav {
+    justify-content: flex-end;
+}
+
+.header-main {
+    margin: 25px;
+    margin-bottom: 50px;
+}
+
+.header-name {
+    text-transform: uppercase;
+    font-size: 30px;
+}
+
+.header-info {
+    font-size: 20px;
+    color: gray;
+}
+
+.image-row {
+    margin: 25px;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+}
+
+.image-col {
+    flex: 25%;
+    max-width: 25%;
+    padding: 0 4px;
+}
+
+.image-col img {
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 100%;
+    cursor: pointer;
+}
+
+.thumbnail:hover {
+    transform: scale(1.05);
+}
+
+.info-row-main {
+    font-size: 30px;
+}
+
+.info-row-info {
+    font-size: 18px;
+    color: gray;
+}
+
+.overlay-text {
+    color: black;
+    background-color: rgb(233, 233, 233);
+    align-items: right;
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+    left: 100%;
+    top: 0;
+    overflow-x: hidden;
+    /* transition: 0.25s; */
+}
+
+.pinfo {
+    margin-right: 20px;
+    font-size: 18px;
+}
+
+.overlay-picture {
+    background-color: rgb(194, 194, 194);
+    padding: 0px;
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    overflow-x: hidden;
+}
+
+.overlay-picture:hover {
+    cursor: pointer;
+
+}
+
+.overlay-picture-img {
+    max-width: 100%;
+    padding: 0;
+}
+
+.back-div {
+    display: inline;
+}
+
+.return-arrow {
+    height: 15px;
+    margin-bottom: 3px;
+}
+
+.closebtn {
+    font-size: 15px;
+    color: gray;
+    margin-bottom: 25px;
+    margin-top: 25px;
+    align-items: center;
+}
+
+.closebtn:hover {
+    color: black;
+    cursor: pointer;
+}
+
+.logos {
+    text-align: center;
+    margin: 20px;
+}
+
+.logo {
+    margin: 20px;
+    color: rgb(88, 88, 88);
+}
+
+.logo:hover {
+    color: black;
+}
+
+.main-icon {
+    float: right;
+    margin-top: 5px;
+}
+
+
+
+@media screen and (max-width: 800px) {
+    .image-col {
+        flex: 50%;
+        max-width: 50%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .image-col {
+        flex: 100%;
+        max-width: 100%;
+    }
+}
+
+@media screen and (max-height: 450px) {
+    .overlay a {
+        font-size: 20px
+    }
+
+    .overlay .closebtn {
+        font-size: 40px;
+        top: 15px;
+        right: 35px;
+    }
+}
