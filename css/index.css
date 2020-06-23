@@ -89,7 +89,7 @@ body {
     font-size: 18px;
 }
 
-.pinfo a {
+.pinfo-a {
     color: rgb(0, 0, 197);
 }
 
@@ -127,6 +127,12 @@ body {
 .overlay-picture::-webkit-scrollbar-track {
     background: rgb(240, 240, 240);
     border-radius: 20px;
+}
+
+.button-link {
+    color: white;
+    text-decoration: inherit;
+    margin: auto;
 }
 
 
