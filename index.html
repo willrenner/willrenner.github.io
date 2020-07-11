@@ -66,7 +66,7 @@
             </div>
             <div class="col image-col">
                 <div class="thumbnail">
-                    <img class="img-fluid" onclick="openNavRight(1)" src="" alt="">
+                    <img class="img-fluid" onclick="openNavRight(4)" src="projectImages/steamScraper-main.JPG" alt="">
 
                 </div>
             </div>
@@ -96,13 +96,11 @@
                 </div>
                 <div class="info-row-info">
                     I am working towards a Computer Science minor.
-                    I have been coding since Junior year of high school. I like computer science as
+                    I have been coding since Junior year of high school (2016). I like computer science as
                     much as Mechanical Engineering,
-                    and it goes hand and hand with engineering in the current age of technology.
-                    I would love to work in a field that allows
-                    me to use both my Mechanical and Computer Science skills.
+                    and it goes hand in hand with engineering in the current age of technology.
                     I am most proficient in Java and C++, but have experience with
-                    JavaScript, C#, Python, PHP, and HTML/CSS (hence this website).
+                    JavaScript, C#, Python, PHP, and HTML/CSS.
                 </div>
             </div>
         </div>
@@ -226,6 +224,46 @@
                 </div>
             </div>
         </div>
+
+        <div id="myNav4" class="overlay">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-8 overlay-picture" onclick="closeNavRight(4)">
+                        <img class="img overlay-picture-img" src="projectImages/steamScraper-main.JPG" alt="">
+                        <br>
+                        <br>
+                        <img class="img overlay-picture-img" src="projectImages/steamScraper-data.jpg" alt="">
+                        <br>
+                        <br>
+                        <img class="img overlay-picture-img" src="projectImages/steamScraper-cmd.JPG" alt="">
+                        <br>
+                        <br>
+                    </div>
+                    <div class="col-4 overlay-text">
+                        <div class="closebtn" onclick="closeNavRight(4)">
+                            <img id="img4" src="resources/arrow.png" href="javascript:void(0)" class="return-arrow">
+                            <div class="back-div">Back</div>
+                        </div>
+                        <h1>
+                            Steam Scraper
+                        </h1>
+                        <p class="pinfo">
+                            My Steam Scraper scrapes a popular game (Rust) server's website for rececently banned
+                            players along with their
+                            Steam IDs. Using Steam's APIs, a GET request is sent with these players' IDs to get the
+                            information seen in the table.
+                            The backend server is made with Node.js, using Express, Request, and Axios.
+                            The frontend is made with HTML/CSS and Javascript (jQuery, Bootstrap).
+                            <div class="row">
+                                <a class="btn btn-dark button-link" href="" role="button">View on GitHub</a>
+                            </div>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
 
     </div>
 
