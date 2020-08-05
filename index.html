@@ -53,23 +53,30 @@
             </div>
             <div class="col image-col">
                 <div class="thumbnail">
-
                     <img class="img-fluid" onclick="openNavRight(2)" src="projectImages/spotifyAppMenu.png" alt="">
-
                 </div>
             </div>
             <div class="col image-col">
                 <div class="thumbnail">
                     <img class="img-fluid" onclick="openNavRight(3)" src="projectImages/csgoWebsite-main.JPG" alt="">
-
                 </div>
             </div>
             <div class="col image-col">
                 <div class="thumbnail">
                     <img class="img-fluid" onclick="openNavRight(4)" src="projectImages/steamScraper-main.JPG" alt="">
-
                 </div>
             </div>
+            <div class="col image-col">
+                <div class="thumbnail">
+                    <img class="img-fluid" onclick="openNavRight(5)" src="projectImages/rosLogo.jpg" alt="">
+                </div>
+            </div>
+            <div class="col image-col">
+                <div class="thumbnail">
+                    <img class="img-fluid" onclick="openNavRight(6)" src="projectImages/testerinoNav.JPG" alt="">
+                </div>
+            </div>
+
         </div>
         <div class="row">
             <div class="col-1">
@@ -105,15 +112,13 @@
             </div>
         </div>
 
-        <div class="row logos">
 
+        <div class="row logos">
             <div class="col">
                 <a class="logo" href="https://github.com/willrenner"><i class="fa fa-github" aria-hidden="true"></i></a>
                 <a class="logo" href="https://www.linkedin.com/in/will-renner/"><i class="fa fa-linkedin"></i></a>
                 <a class="logo" href="mailto:willrenner2@gmail.com"><i class="fa fa-envelope"
                         aria-hidden="true"></i></a>
-
-
             </div>
         </div>
 
@@ -132,12 +137,11 @@
                             AUSSP
                         </h1>
                         <p class="pinfo">
-                            I am a member of the Auburn University Small Satelite Program,
+                            I am a member of the Auburn University Small Satellite Program,
                             which is a space research program where students design, build,
                             test, and operate CubeSats. I work with the ADACS team, or attitude determination
                             and control systems. We build systems such as reaction control wheels, magnetorquers, sun
-                            sensors, and other systems to control the attitude of the cube satelite.
-
+                            sensors, and other systems to control the attitude of the cube satellite.
                         </p>
                     </div>
                 </div>
@@ -248,12 +252,103 @@
                             Steam Scraper
                         </h1>
                         <p class="pinfo">
-                            My Steam Scraper scrapes a popular game (Rust) server's website for rececently banned
+                            My Steam Scraper scrapes a popular game (Rust) server's website for recently banned
                             players along with their
                             Steam IDs. Using Steam's APIs, a GET request is sent with these players' IDs to get the
                             information seen in the table.
                             The back end server is made with Node.js, using Express, Request, and Axios.
                             The front end is made with HTML/CSS and Javascript (jQuery, Bootstrap).
+                            <!-- <div class="row">
+                                <a class="btn btn-dark button-link" href="" role="button">View on GitHub</a>
+                            </div> -->
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="myNav5" class="overlay">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-8 overlay-picture" onclick="closeNavRight(5)">
+                        <br>
+                        <img class="img overlay-picture-img" src="projectImages/rosWhiteLogo.jpg" alt="">
+                        <br>
+                        <br>
+                        <img class="img overlay-picture-img" src="projectImages/linux.jpg" alt=""
+                            style="width:700px;height:400px;">
+                        <br>
+                        <br>
+                        <img class="img overlay-picture-img" src="projectImages/ubuntuLogo.png" alt="">
+
+                    </div>
+                    <div class="col-4 overlay-text">
+                        <div class="closebtn" onclick="closeNavRight(5)">
+                            <img id="img5" src="resources/arrow.png" href="javascript:void(0)" class="return-arrow">
+                            <div class="back-div">Back</div>
+                        </div>
+                        <h1>
+                            Robot Operating System (ROS)
+                        </h1>
+                        <p class="pinfo">
+                            ROS is an open source framework for writing robot software that includes tools, libraries,
+                            and conventions that simplify creating a robot.
+                            <br>
+                            <br>
+                            During the summer of 2020, I decided to
+                            learn ROS by creating a few projects. Through the process, I thoroughly learned the
+                            fundamentals of ROS as well as Linux (Ubuntu).
+                            I also learned how to use Gazebo, the simulation environment mainly used by ROS.
+
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="myNav6" class="overlay">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-8 overlay-picture" onclick="">
+                        <video width="800" height="500" controls>
+                            <source src="projectImages\testerinoNav.mp4" type="video/mp4">
+                            Your browser does not support the video tag.
+                        </video>
+                        <br>
+                        <br>
+                        <video width="800" height="500" controls>
+                            <source src="projectImages\wallFollower.mp4" type="video/mp4">
+                            Your browser does not support the video tag.
+                        </video>
+
+                    </div>
+                    <div class="col-4 overlay-text">
+                        <div class="closebtn" onclick="closeNavRight(6)">
+                            <img id="img6" src="resources/arrow.png" href="javascript:void(0)" class="return-arrow">
+                            <div class="back-div">Back</div>
+                        </div>
+                        <h1>
+                            ROS Projects
+                        </h1>
+                        <p class="pinfo">
+                            These two projects were created using ROS.
+                            <br>
+                            <br>
+                            First, I created an autonomous differential drive robot. The robot has inertia, joints, and
+                            a
+                            lidar laser sensor.
+                            A map of the world was created using a technique called Gmapping, which uses laser range
+                            data to make a map.
+                            I added a global and local planner to my robot, which plan paths to travel to the provided
+                            goal.
+                            Another package called AMCL was implemented to account for the drift of the robot due to
+                            minor inaccuracies in sensor data like wheel encoders.
+                            <br>
+                            <br>
+                            Secondly, I created a wall-following robot that follows the curve of a wall or track. I made
+                            a Node that publishes a command velocity to
+                            the robot based on lidar data. The actual code uses two PID controllers to compute the
+                            required velocities to follow the wall.
                             <!-- <div class="row">
                                 <a class="btn btn-dark button-link" href="" role="button">View on GitHub</a>
                             </div> -->
