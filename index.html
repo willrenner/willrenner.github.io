@@ -42,60 +42,75 @@
                 </ul>
             </div>
         </div>
+
         <div class="row image-row">
             <div class="col image-col">
                 <div class="thumbnail">
-                    <img class="img-fluid" onclick="openNavRight(1)" src="resources/cubeSat.jpg" alt="">
-                </div>
-                <div class="thumbnail">
                     <img class="img-fluid" onclick="openNavRight(7)" src="projectImages/alexa.jpg" alt="">
-                </div>
-            </div>
-            <div class="col image-col">
-                <div class="thumbnail">
-                    <img class="img-fluid" onclick="openNavRight(2)" src="projectImages/spotifyAppMenu.png" alt="">
+                    <div class="img__description_layer">
+                    <p class="img__description">2020</p>
+                    </div>
                 </div>
                 <div class="thumbnail">
-                    <img class="img-fluid" onclick="openNavRight(6)" src="projectImages/testerinoNav.JPG" alt="">
+                    <img class="img-fluid" onclick="openNavRight(9)" src="projectImages/quadcopter.PNG" alt="">
+                        <div class="img__description_layer">
+                        <p class="img__description">2021</p>
+                        </div>
                 </div>
-                <div class="thumbnail" onclick="openNavRight(8)">
-                    <img class="img-fluid"  src="projectImages/OASIS_renderGrey.png" alt="">
-                    <!-- <div class="img__description_layer">
-                        <p class="img__description">2020</p>
-                      </div> -->
-                </div>
+                
             </div>
             <div class="col image-col">
                 <div class="thumbnail">
                     <img class="img-fluid" onclick="openNavRight(3)" src="projectImages/csgoWebsite-main.JPG" alt="">
+                        <div class="img__description_layer">
+                        <p class="img__description">2020</p>
+                        </div>
                 </div>
-                
-
+                <div class="thumbnail">
+                    <img class="img-fluid" onclick="openNavRight(2)" src="projectImages/spotifyAppMenu.png" alt="">
+                        <div class="img__description_layer">
+                        <p class="img__description">2021</p>
+                        </div>
+                </div>
             </div>
             <div class="col image-col">
                 <div class="thumbnail">
                     <img class="img-fluid" onclick="openNavRight(4)" src="projectImages/steamScraper-main.JPG" alt="">
+                        <div class="img__description_layer">
+                        <p class="img__description">2020</p>
+                        </div>
                 </div>
+                <div class="thumbnail" onclick="openNavRight(8)">
+                    <img class="img-fluid"  src="projectImages/OASIS_renderGrey.png" alt="">
+                        <div class="img__description_layer">
+                        <p class="img__description">2021</p>
+                        </div>
+                </div>
+            </div>
+            <div class="col image-col">
                 <div class="thumbnail">
-                    <img class="img-fluid" onclick="openNavRight(5)" src="projectImages/rosLogo.jpg" alt="">
+                    <img class="img-fluid" onclick="openNavRight(6)" src="projectImages/testerinoNav.JPG" alt="">
+                        <div class="img__description_layer">
+                        <p class="img__description">2020</p>
+                        </div>
                 </div>
             </div>
 
 
         </div>
-        <div class="row">
+        <div class="row myDescription">
             <div class="col-1">
                 <!-- <img src="resources/gear.svg"> -->
                 <i class="fa fa-cog fa-2x main-icon" aria-hidden="true"></i>
             </div>
             <div class="col-5">
                 <div class="info-row-main">
-                    Mechanical Engineer
+                    Mechanical Engineering
                 </div>
                 <div class="info-row-info">
-                    I am working towards earning a Mechanical Engineering degree in 2022. I have always been interested
-                    in how the
-                    things around me work. I enjoy working with my hands and creating and building things.
+                    I am graduating in May of 2022 with a degree in Mechanical Engineering. I enjoy learning
+                    how the things around me work. I hope to apply what I have learned in Mechanical Engineering
+                    to my software projects.
                 </div>
             </div>
 
@@ -108,11 +123,8 @@
                 </div>
                 <div class="info-row-info">
                     I am working towards a Computer Science minor.
-                    I have been coding since Junior year of high school (2016). I like computer science as
-                    much as Mechanical Engineering,
-                    and it goes hand in hand with engineering in the current age of technology.
-                    I am most proficient in Java and C++, but have experience with
-                    JavaScript, C#, Python, PHP, and HTML/CSS.
+                    I have been coding since 2016 and I am proficient in Java, C++, Javascript, Python, Matlab, and more. 
+                    I enjoy coding because of the constant need to solve challenging problems.
                 </div>
             </div>
         </div>
@@ -127,31 +139,7 @@
             </div>
         </div>
 
-        <div id="myNav1" class="overlay">
-            <div class="container-fluid">
-                <div class="row">
-                    <div class="col-8 overlay-picture" onclick="closeNavRight(1)">
-                        <img class="img overlay-picture-img" src="resources/cubeSat.jpg" alt="">
-                    </div>
-                    <div class="col-4 overlay-text">
-                        <div class="closebtn" onclick="closeNavRight(1)">
-                            <img id="img1" src="resources/arrow.png" href="javascript:void(0)" class="return-arrow">
-                            <div class="back-div">Back</div>
-                        </div>
-                        <h1>
-                            AUSSP
-                        </h1>
-                        <p class="pinfo">
-                            I am a member of the Auburn University Small Satellite Program,
-                            which is a space research program where students design, build,
-                            test, and operate CubeSats. I work with the ADACS team, or attitude determination
-                            and control systems. We build systems such as reaction control wheels, magnetorquers, sun
-                            sensors, and other systems to control the attitude of the cube satellite.
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </div>
+        
 
         <div id="myNav2" class="overlay">
             <div class="container-fluid">
@@ -178,17 +166,24 @@
                             Spotify Web App
                         </h1>
                         <p class="pinfo">
-                            My Spotify Web App allows you to view your
+                            My Spotify web app allows you to view your
                             most played songs. To do this, the app
                             requires you to authenticate through Spotify. After authentication is complete,
                             you can view your most played songs from the last four weeks to the last
                             several years. You can also select the number of songs to show, ranging from
-                            10 to 50. All of this information is gathered through Spotify's API. The App itself is
+                            10 to 50. This information is gathered through Spotify's API. The app itself is
                             built with React.js, Javascript, and HTML/CSS.
-                            <div class="row">
-                                <a class="btn btn-dark button-link" href="https://github.com/willrenner/spotifyWebApp"
-                                    role="button">View on GitHub</a>
+                            <br>
+                            <div class="pUtilized">
+                            Utilized:
+                                <ul>
+                                <li>React.js</li>
+                                <li>Javascript</li>
+                                <li>HTML/CSS</li>
+                                <li>APIs, Async, Authentication Flow</li>
+                                </ul>  
                             </div>
+                            
                         </p>
 
                     </div>
@@ -224,9 +219,15 @@
                             My CSGO stat scraper allows you to upload an html file (obtained from <a
                                 href="https://store.steampowered.com/" class="pinfo-a">steam</a>)
                             and scrape the file for important Counter-Strike: Global Offensive stats.
-                            <div class="row">
-                                <a class="btn btn-dark button-link" href="https://github.com/willrenner/csgoScraper"
-                                    role="button">View on GitHub</a>
+                            <br>
+                            <div class="pUtilized">
+                            Utilized:
+                                <ul>
+                                <li>Javascript</li>
+                                <li>HTML/CSS</li>
+                                <li>Webscraping</li>
+
+                                </ul>  
                             </div>
                         </p>
                     </div>
@@ -242,11 +243,6 @@
                         <br>
                         <br>
                         <img class="img overlay-picture-img" src="projectImages/steamScraper-data.jpg" alt="">
-                        <br>
-                        <br>
-                        <img class="img overlay-picture-img" src="projectImages/steamScraper-cmd.JPG" alt="">
-                        <br>
-                        <br>
                     </div>
                     <div class="col-4 overlay-text">
                         <div class="closebtn" onclick="closeNavRight(4)">
@@ -263,65 +259,33 @@
                             information seen in the table.
                             The back end server is made with Node.js, using Express, Request, and Axios.
                             The front end is made with HTML/CSS and Javascript (jQuery, Bootstrap).
-                            <!-- <div class="row">
-                                <a class="btn btn-dark button-link" href="" role="button">View on GitHub</a>
-                            </div> -->
+                            <br>
+                            <div class="pUtilized">
+                            Utilized:
+                                <ul>
+                                <li>Javascript (Express, Request, Axios, jQuery)</li>
+                                <li>HTML/CSS</li>
+                                <li>APIs</li>
+                                </ul>  
+                            </div>
                         </p>
                     </div>
                 </div>
             </div>
         </div>
 
-        <div id="myNav5" class="overlay">
-            <div class="container-fluid">
-                <div class="row">
-                    <div class="col-8 overlay-picture" onclick="closeNavRight(5)">
-                        <br>
-                        <img class="img overlay-picture-img" src="projectImages/rosWhiteLogo.jpg" alt="">
-                        <br>
-                        <br>
-                        <img class="img overlay-picture-img" src="projectImages/linux.jpg" alt=""
-                            style="width:700px;height:400px;">
-                        <br>
-                        <br>
-                        <img class="img overlay-picture-img" src="projectImages/ubuntuLogo.png" alt="">
-
-                    </div>
-                    <div class="col-4 overlay-text">
-                        <div class="closebtn" onclick="closeNavRight(5)">
-                            <img id="img5" src="resources/arrow.png" href="javascript:void(0)" class="return-arrow">
-                            <div class="back-div">Back</div>
-                        </div>
-                        <h1>
-                            Robot Operating System (ROS)
-                        </h1>
-                        <p class="pinfo">
-                            ROS is an open source framework for writing robot software that includes tools, libraries,
-                            and conventions that simplify creating a robot.
-                            <br>
-                            <br>
-                            During the summer of 2020, I decided to
-                            learn ROS by creating a few projects. Through the process, I thoroughly learned the
-                            fundamentals of ROS as well as Linux (Ubuntu).
-                            I also learned how to use Gazebo, the simulation environment mainly used by ROS.
-
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </div>
 
         <div id="myNav6" class="overlay">
             <div class="container-fluid">
                 <div class="row">
                     <div class="col-8 overlay-picture" onclick="">
-                        <video width="800" height="500" controls>
+                        <video width="1200" height="700" controls>
                             <source src="projectImages\testerinoNav.mp4" type="video/mp4">
                             Your browser does not support the video tag.
                         </video>
                         <br>
                         <br>
-                        <video width="800" height="500" controls>
+                        <video width="1200" height="700" controls>
                             <source src="projectImages\wallFollower.mp4" type="video/mp4">
                             Your browser does not support the video tag.
                         </video>
@@ -336,7 +300,7 @@
                             ROS Projects
                         </h1>
                         <p class="pinfo">
-                            These two projects were created using ROS.
+                            These two projects were created using ROS (Robot Operating System).
                             <br>
                             <br>
                             First, I created an autonomous differential drive robot. The robot has inertia, joints, and
@@ -344,19 +308,23 @@
                             lidar laser sensor.
                             A map of the world was created using a technique called Gmapping, which uses laser range
                             data to make a map.
-                            I added a global and local planner to my robot, which plan paths to travel to the provided
+                            I added a global and local planner to the robot, which plan paths to travel to the set
                             goal.
                             Another package called AMCL was implemented to account for the drift of the robot due to
-                            minor inaccuracies in sensor data like wheel encoders.
+                            minor inaccuracies in sensor data.
                             <br>
                             <br>
-                            Secondly, I created a wall-following robot that follows the curve of a wall or track. I made
-                            a Node that publishes a command velocity to
-                            the robot based on lidar data. The actual code uses two PID controllers to compute the
-                            required velocities to follow the wall.
-                            <!-- <div class="row">
-                                <a class="btn btn-dark button-link" href="" role="button">View on GitHub</a>
-                            </div> -->
+                            Secondly, I created a wall-following robot that follows the curve of a wall or track using a PID controller.
+                            <br>
+                            <div class="pUtilized">
+                            Utilized:
+                                <ul>
+                                <li>ROS</li>
+                                <li>Linux</li>
+                                <li>C++, Python</li>
+                                <li>PID Control</li>
+                                </ul>  
+                            </div>
                         </p>
                     </div>
                 </div>
@@ -383,27 +351,18 @@
                         <p class="pinfo">
                             In the Fall of 2020, two friends and I decided to participate in Auburn Hacks, a hackathon
                             where you must create
-                            a project in under 24 hours. We went in with no expectations and no idea of what we were
-                            going
-                            to make. Less than 24 hours later, we
-                            left with a fully functioning Alexa Skill.
-                            <br>
-                            <br>
-                            The Alexa Skill we made is a categories game. First, you ask Alexa to "play
-                            categories game". You can then select a category: fruits, NFL teams, or Minecraft blocks.
-                            You and Alexa will then
-                            take turns saying words from the category and the first unable to come up with a valid
-                            answer loses. Alexa keeps the score, and lets you know how you did at the end.
-                            <br>
-                            <br>
-                            While this seems like a simple project, behind the simple voice commands is a ton of
-                            advanced technology
-                            (and room for error). From your intents with words to mishearing you, there is a lot more to
-                            creating an Alexa skill than
-                            we originally anticipated. In the end, I learned a ton about the importance of teamwork and
-                            persistance, and
-                            I gained a solid understanding in the workings of an Alexa Skill.
-
+                            a project in under 24 hours. 
+                            We created a Skill for Amazon Alexa where the user can select a category such as fruits or NFL teams, and then the user and Alexa will 
+                            take turns saying words from the category. The first unable to come up with a valid
+                            answer loses. Alexa keeps score, and lets the user know how they did at the end.
+                            <div class="pUtilized">
+                            Utilized:
+                                <ul>
+                                <li>Python</li>
+                                <li>Team Work + Persistance</li>
+                                </ul>  
+                            </div>
+                            
                         </p>
                     </div>
                 </div>
@@ -416,6 +375,10 @@
                         <img class="img overlay-picture-img" src="projectImages/OASIS_renderGrey.png" alt="">
                         <br>
                         <br>
+                        <img class="img overlay-picture-img" src="projectImages/OASIS_poster.PNG" alt="">
+                        <br>
+                        <br>
+                        <img class="img overlay-picture-img" src="projectImages/OASIS_inCompetition.jpg" alt="">
                     </div>
                     <div class="col-4 overlay-text">
                         <div class="closebtn" onclick="closeNavRight(8)">
@@ -427,19 +390,63 @@
                         </h1>
                         <p class="pinfo">
                         AARC is a club that focuses on mobility systems, multi-agent systems, and systems that can survive in extreme
-                        environments. In the fall of 2020, we entered the 2021 NASA RASC-AL Special Edition competition. The task is to design a 
-                        water extraction system for mars that must identify the layers undeath the surface. During the fall semester, the team
-                        designed the system, and in December the team was selected as 1 of 12 finalists that actually get to build the system with NASA's funding. 
-                        In the spring semester of 2021, AARC will be building the system that we hope will win the competition!
+                        environments. In the fall of 2020, we entered the 2021 NASA RASC-AL Special Edition competition. The task was to design a 
+                        water extraction system for mars that must also identify the layers undeath the surface. We designed and built our machine in under
+                        six months and competed in Hampton, VA, against ten other universities. I was the team lead of the Control & Telemetry subteam,
+                        writing software for an Arduino to control stepper motors, sensors, a drill, heater, and more. I also created a GUI in Matlab to
+                        communicate with the Arduino. Lastly, a Python script was made to display all system telemetry data.
                         <br>
-                        I am a member of the Controls and Telemetry subteam within AARC. We build systems that can control the machine both with manual input and autonomously. 
-                        Telemetry data is gathered from many sensors which provide feedback for the control system. 
+                        <div class="pUtilized">
+                        Utilized:
+                            <ul>
+                            <li>C++, Matlab, Python</li>
+                            <li>Sensors</li>
+                            <li>Mechanical Design</li>
+                            <li>Teamwork</li>
+                            <li>Leadership</li>
+                            </ul>  
+                        </div>
                         </p>
                     </div>
                 </div>
             </div>
         </div>
-
+        <div id="myNav9" class="overlay">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-8 overlay-picture" onclick="">
+                        <video width="1200" height="700" controls>
+                            <source src="projectImages\quadcopterVideo.mp4" type="video/mp4">
+                            Your browser does not support the video tag.
+                        </video>
+                    </div>
+                    <div class="col-4 overlay-text">
+                        <div class="closebtn" onclick="closeNavRight(9)">
+                            <img id="img6" src="resources/arrow.png" href="javascript:void(0)" class="return-arrow">
+                            <div class="back-div">Back</div>
+                        </div>
+                        <h1>
+                            Quadcopter Simulation
+                        </h1>
+                        <p class="pinfo">
+                            I created a quadcopter simulation in the game engine Unity. An xbox controller is used for controlling the quadcopter, which works by applying forces and torques 
+                            to simulate real life. There are various modes of freedom for the user to chose from to allow for stable flight or acrobatic flight. The user can also
+                            add more noise to the sensors to more closely simulate real life.
+                            <br>
+                            <div class="pUtilized">
+                            Utilized:
+                                <ul>
+                                <li>Unity</li>
+                                <li>C#</li>
+                                <li>PID Control</li>
+                                <li>Physics, Dynamics</li>
+                                </ul>  
+                            </div>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
 
 
     </div>
