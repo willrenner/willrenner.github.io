@@ -163,7 +163,10 @@ body {
 
 .overlay-picture-img {
     max-width: 100%;
-    padding: 0;
+    padding: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .overlay-picture::-webkit-scrollbar {
@@ -185,7 +188,10 @@ body {
     text-decoration: inherit;
     margin: auto;
 }
-
+iframe {
+    padding-left: 75px;
+    padding-top: 20px;
+}
 
 
 .back-div {

@@ -94,6 +94,12 @@
                         <p class="img__description">2020</p>
                         </div>
                 </div>
+                <div class="thumbnail">
+                    <img class="img-fluid" onclick="openNavRight(10)" src="projectImages/invertedPendPic.PNG" alt="">
+                        <div class="img__description_layer">
+                        <p class="img__description">2020</p>
+                        </div>
+                </div>
             </div>
 
 
@@ -122,7 +128,7 @@
                     Computer Science
                 </div>
                 <div class="info-row-info">
-                    I am working towards a Computer Science minor.
+                    I am also graduating in May with a minor in Computer Science.
                     I have been coding since 2016 and I am proficient in Java, C++, Javascript, Python, Matlab, and more. 
                     I enjoy coding because of the constant need to solve challenging problems.
                 </div>
@@ -278,18 +284,11 @@
         <div id="myNav6" class="overlay">
             <div class="container-fluid">
                 <div class="row">
-                    <div class="col-8 overlay-picture" onclick="">
-                        <video width="1200" height="700" controls>
-                            <source src="projectImages\testerinoNav.mp4" type="video/mp4">
-                            Your browser does not support the video tag.
-                        </video>
+                    <div class="col-8 overlay-picture" onclick="closeNavRight(6)">
+                        <iframe width="1200" height="700" src="https://www.youtube.com/embed/Lyd3ohtwblg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                         <br>
                         <br>
-                        <video width="1200" height="700" controls>
-                            <source src="projectImages\wallFollower.mp4" type="video/mp4">
-                            Your browser does not support the video tag.
-                        </video>
-
+                        <iframe width="1200" height="700" src="https://www.youtube.com/embed/PCrENo18GpY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                     </div>
                     <div class="col-4 overlay-text">
                         <div class="closebtn" onclick="closeNavRight(6)">
@@ -372,7 +371,7 @@
             <div class="container-fluid">
                 <div class="row">
                     <div class="col-8 overlay-picture" onclick="closeNavRight(8)">
-                        <img class="img overlay-picture-img" src="projectImages/OASIS_renderGrey.png" alt="">
+                        <img class="img overlay-picture-img" src="projectImages/OSASIS_Render_1.png.jfif" alt="">
                         <br>
                         <br>
                         <img class="img overlay-picture-img" src="projectImages/OASIS_poster.PNG" alt="">
@@ -414,11 +413,8 @@
         <div id="myNav9" class="overlay">
             <div class="container-fluid">
                 <div class="row">
-                    <div class="col-8 overlay-picture" onclick="">
-                        <video width="1200" height="700" controls>
-                            <source src="projectImages\quadcopterVideo.mp4" type="video/mp4">
-                            Your browser does not support the video tag.
-                        </video>
+                    <div class="col-8 overlay-picture" onclick="closeNavRight(9)">
+                        <iframe width="1200" height="700" src="https://www.youtube.com/embed/jdEzyF7M2II" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                     </div>
                     <div class="col-4 overlay-text">
                         <div class="closebtn" onclick="closeNavRight(9)">
@@ -432,6 +428,37 @@
                             I created a quadcopter simulation in the game engine Unity. An xbox controller is used for controlling the quadcopter, which works by applying forces and torques 
                             to simulate real life. There are various modes of freedom for the user to chose from to allow for stable flight or acrobatic flight. The user can also
                             add more noise to the sensors to more closely simulate real life.
+                            <br>
+                            <div class="pUtilized">
+                            Utilized:
+                                <ul>
+                                <li>Unity</li>
+                                <li>C#</li>
+                                <li>PID Control</li>
+                                <li>Physics, Dynamics</li>
+                                </ul>  
+                            </div>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="myNav10" class="overlay">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-8 overlay-picture" onclick="closeNavRight(10)">
+                        <iframe class="abc" width="1200" height="700" src="https://www.youtube.com/embed/Wx4YQNglGIY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                    <div class="col-4 overlay-text">
+                        <div class="closebtn" onclick="closeNavRight(10)">
+                            <img id="img6" src="resources/arrow.png" href="javascript:void(0)" class="return-arrow">
+                            <div class="back-div">Back</div>
+                        </div>
+                        <h1>
+                            Control Of Inverted Pendulum
+                        </h1>
+                        <p class="pinfo">
+                            abc
                             <br>
                             <div class="pUtilized">
                             Utilized:
