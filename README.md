@@ -1,2 +1,2 @@
 ### willrenner.github.io
-A simple website portfolio of my work.
+A portfolio website for a few of my projects.
